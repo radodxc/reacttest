@@ -3,6 +3,7 @@ import './App.css';
 
 
 import Header from './Header'
+import Grid from './Grid'
 
 class App extends Component {
 
@@ -11,7 +12,8 @@ class App extends Component {
       <div className="App">
         <div className="uk-container">
           <Header />
-        </div>
+         </div>
+         <Grid />       	
       </div>
     );
   }

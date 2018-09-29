@@ -7,7 +7,7 @@ class Grid extends React.Component {
   render() {
     return(
 	    <div className="uk-container">
-		    <div className="uk-grid uk-grid-small" uk-grid="true">
+		    <div className="uk-grid uk-grid-small" uk-grid="true" uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 500">
 		    	<div className="uk-width-1-4">
 			    	<div className="img-wrap">
 			    		<div className="img-bg" style={{backgroundImage:"url('images/bee-on-daisy.jpg')"}}></div>
